@@ -22,17 +22,14 @@ function Header() {
   const head = document.createElement("h1");
   const temp = document.createElement("span");
 
-  //Add Classes
   header.classList.add("header");
   date.classList.add("date");
   temp.classList.add("temp");
 
-  //Add content
   date.textContent = "SMarch 28. 2019";
   head.textContent = "Lambda Times";
   temp.textContent = "98°";
 
-  //Append Content
   header.appendChild(date);
   header.appendChild(head);
   header.appendChild(temp);
