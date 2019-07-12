@@ -9,8 +9,12 @@
 //  </div >
 // And add it to the DOM in the .headerContainer component
 
-const headContainer = document.querySelector(".header-container");
-headContainer.appendChild(Header());
+query();
+
+function query() {
+  const headContainer = document.querySelector(".header-container");
+  headContainer.appendChild(Header());
+}
 
 function Header() {
   const header = document.createElement("div");
